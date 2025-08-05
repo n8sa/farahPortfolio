@@ -1,15 +1,14 @@
 {
-  "name": "copy-of-farah-nisa's-portfolio",
+  "name": "copy-of-farah-nisas-portfolio",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
-  },
-  "homepage": "https://github.com/n8sa/farahPortfolio"
+  "type": "module","scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "vite build && rm -rf docs && cp -r dist docs"
+},
+"homepage": "https://n8sa.github.io/farahPortfolio"
 ,
   "dependencies": {
     "react": "^19.1.1",
