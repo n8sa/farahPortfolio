@@ -1,4 +1,5 @@
 import React from 'react';
+import convoNisa from '../context/convoNisa.png'
 
 const About: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ const About: React.FC = () => {
         <div className="md:col-span-2 flex justify-center items-center">
             <div className="w-60 h-80 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-pink-500/20 dark:hover:shadow-pink-400/10 transform hover:-translate-y-2 transition-all duration-300">
                 <img 
-                    src="context/convoNisa.png" 
+                    src={convoNisa} 
                     alt="Farah Nisa Profile"
                     className="w-full h-full object-cover"
                 />
