@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
     {
         id: 2,
         name: "Azure VM Deployment Automation",
-        image: "https://github.com/n8sa/farahPortfolio/blob/main/context/migrationAzure.png",
+        image: "https://www.pexels.com/photo/laptop-computer-showing-c-application-574069/",
         description: "Automated Azure VM deployment with PowerShell and VBScript, cutting manual infrastructure setup effort by over 60% and ensuring consistent, error-free server environments.",
         technologies: ["PowerShell", "Azure", "VBScript", "Windows Server"],
         githubUrl: "https://github.com/n8sa/azure-automation-scripts",
@@ -44,10 +44,10 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 4,
-        name: "Legacy DB Migration Tool",
+        name: "Power Apps & Automate Integration",
         image: "https://picsum.photos/seed/db-migration/800/600",
-        description: "Engineered a T-SQL solution that boosted query performance by 40% for a critical backend application by migrating complex business logic from legacy VBA.",
-        technologies: ["T-SQL", "SQL Server", "VBA", "C#"],
+        description: "Developed a leave request system using Power Apps, allowing employees to submit and track their leave. The app stores data in SharePoint and uses Power Automate to send approval emails to managers, with an easy-to-use interface for both users and approvers.",
+        technologies: ["Power App", "SharePoint List", "Power Automate"],
         githubUrl: "https://github.com/n8sa/db-migration-tool",
     },
 ];
@@ -59,12 +59,13 @@ export const EXPERIENCES: Experience[] = [
         period: "Feb 2022 – Apr 2025",
         location: "Kuala Lumpur",
         description: [
-            "Deployed and configured 10+ Azure Virtual Machines (Windows Server 2016/2019/2022 with Japanese locale).",
-            "Streamlined deployments by 15% through efficient resource group setup and server parameter tuning.",
-            "Migrated data across VMs using PowerShell, OneDrive, and SharePoint automation in ServiceNow-driven workflows.",
-            "Automated bulk Excel processing using VBScript, cutting manual effort by over 50%.",
-            "Enhanced financial reporting visibility by integrating PowerShell and Batch scripts for log tracking and system auditing.",
-            "Converted legacy VBA logic into T-SQL, accelerating query performance by 40% for Japanese backend applications.",
+           "Deployed and configured 10+ Azure Virtual Machines (Windows Server 2016/2019/2022 with Japanese locale).",
+    "Streamlined deployments by 15% through efficient resource group setup and server parameter tuning.",
+    "Migrated data across VMs using PowerShell, OneDrive, and SharePoint automation in ServiceNow-driven workflows.",
+    "Explored Microsoft Power Apps and Power Automate through self-learning and exposure to an internal productivity tracking system.",
+    "Automated bulk Excel processing using VBScript, cutting manual effort by over 50%.",
+    "Enhanced financial reporting visibility by integrating PowerShell and Batch scripts for log tracking and system auditing.",
+    "Converted legacy VBA logic into T-SQL, accelerating query performance by 40% for Japanese backend applications."
         ],
     },
     {
@@ -121,14 +122,35 @@ export const SKILLS: SkillCategory[] = [
         title: 'Programming Languages',
         skills: [{name: 'Java'}, {name: 'C#'}, {name: 'JavaScript'}, {name: 'Python'}, {name: 'SQL'}, {name: 'T-SQL'}, {name: 'Batch'}, {name: 'PowerShell'}, {name: 'MySQL'}, {name: 'HTML & CSS'}, {name: 'C++'}],
     },
-    {
-        title: 'Frameworks & Tools',
-        skills: [{name: 'React.js'}, {name: 'Node.js'}, {name: 'GitHub'}, {name: 'Firebase'}, {name: 'Visual Studio Code'}, {name: 'Microsoft Visual Studio'}, {name: 'Postman'}, {name: 'Jira'}, {name: 'ServiceNow'}],
-    },
-    {
-        title: 'Cloud & Infrastructure',
-        skills: [{name: 'Microsoft Azure'}, {name: 'VM Provisioning'}, {name: 'Server Migration'}, {name: 'Resource Groups'}, {name: 'SQL Server'}, {name: 'Power BI'}],
-    },
+{
+    title: 'Frameworks & Tools',
+    skills: [
+        {name: 'React.js'},
+        {name: 'Node.js'},
+        {name: 'GitHub'},
+        {name: 'Firebase'},
+        {name: 'Visual Studio Code'},
+        {name: 'Microsoft Visual Studio'},
+        {name: 'Postman'},
+        {name: 'Jira'},
+        {name: 'ServiceNow'},
+        {name: 'Power Apps'},
+        {name: 'Power Automate'}
+    ],
+},
+{
+    title: 'Cloud & Infrastructure',
+    skills: [
+        {name: 'Microsoft Azure'},
+        {name: 'VM Provisioning'},
+        {name: 'Server Migration'},
+        {name: 'Resource Groups'},
+        {name: 'SQL Server'},
+        {name: 'Power BI'},
+        {name: 'SharePoint'},
+        {name: 'OneDrive'}
+    ],
+},
     {
         title: 'DevOps & Workflow',
         skills: [{name: 'Automation Scripting'}, {name: 'Git'}, {name: 'CI/CD (basic)'}, {name: 'Agile/Scrum Workflows'}],
