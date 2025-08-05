@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full p-1 bg-gradient-to-tr from-pink-400 to-rose-500 dark:from-pink-500 dark:to-rose-600 shadow-2xl hover:shadow-pink-500/40 dark:hover:shadow-pink-500/20 transition-shadow">
               <div className="w-full h-full bg-white dark:bg-gray-800 rounded-full p-1">
                   <img 
-                      src="context/nisaProfile.png" 
+                      src="nisaProfile.png" 
                       alt="Farah Nisa" 
                       className="w-full h-full object-cover rounded-full"
                   />
