@@ -1,6 +1,6 @@
 import React from 'react';
 import { EXPERIENCES } from '../constants';
-import { Experience } from '../types';
+import type { Experience } from '../types';
 
 const ExperienceCard: React.FC<{ experience: Experience }> = ({ experience }) => {
   return (

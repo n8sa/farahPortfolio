@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
     {
         id: 2,
         name: "Azure VM Deployment Automation",
-        image: "https://picsum.photos/seed/azure-vm/800/600",
+        image: "https://github.com/n8sa/farahPortfolio/blob/main/context/migrationAzure.png",
         description: "Automated Azure VM deployment with PowerShell and VBScript, cutting manual infrastructure setup effort by over 60% and ensuring consistent, error-free server environments.",
         technologies: ["PowerShell", "Azure", "VBScript", "Windows Server"],
         githubUrl: "https://github.com/n8sa/azure-automation-scripts",

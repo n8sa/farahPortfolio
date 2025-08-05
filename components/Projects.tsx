@@ -30,28 +30,6 @@ const Projects: React.FC = () => {
                         </span>
                     ))}
                 </div>
-                <div className="flex items-center gap-4 mt-auto">
-                    <a 
-                        href={selectedProject.githubUrl} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-pink-500 dark:hover:text-pink-400 font-semibold transition-colors"
-                    >
-                        <span className="w-5 h-5">{GithubIcon}</span>
-                        Code
-                    </a>
-                    {selectedProject.liveUrl && selectedProject.liveUrl !== '#' && (
-                        <a 
-                            href={selectedProject.liveUrl} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 text-gray-600 dark:text-gray-300 hover:text-pink-500 dark:hover:text-pink-400 font-semibold transition-colors"
-                        >
-                            <span className="w-5 h-5">{ExternalLinkIcon}</span>
-                            Live Demo
-                        </a>
-                    )}
-                </div>
              </div>
           </div>
         </div>
