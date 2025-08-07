@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
     {
         id: 1,
         name: "Personal Portfolio Website",
-        image: "https://picsum.photos/seed/portfolio/800/600",
+        image: "https://smartwavetechnology.com.my/wp-content/uploads/2024/03/main-tools.png",
         description: "Built with React & TypeScript, this site showcases my work with a clean, interactive design and smooth animations. The code itself demonstrates my frontend development capabilities.",
         technologies: ["React", "TypeScript", "Tailwind CSS"],
         githubUrl: "https://github.com/n8sa/personal-portfolio",
@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
     {
         id: 2,
         name: "Azure VM Deployment Automation",
-        image: "https://www.pexels.com/photo/laptop-computer-showing-c-application-574069/",
+        image: "https://smartwavetechnology.com.my/wp-content/uploads/2024/03/main-tools.png",
         description: "Automated Azure VM deployment with PowerShell and VBScript, cutting manual infrastructure setup effort by over 60% and ensuring consistent, error-free server environments.",
         technologies: ["PowerShell", "Azure", "VBScript", "Windows Server"],
         githubUrl: "https://github.com/n8sa/azure-automation-scripts",
@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
     {
         id: 3,
         name: "Performance Monitoring Dashboard",
-        image: "https://picsum.photos/seed/dashboard/800/600",
+        image: "https://smartwavetechnology.com.my/wp-content/uploads/2024/03/main-tools.png",
         description: "Developed a React dashboard for Petronas Digital, providing senior leaders with real-time, actionable insights into team performance and workload distribution.",
         technologies: ["React.js", "HTML & CSS", "REST APIs", "Postman"],
         githubUrl: "https://github.com/n8sa/performance-dashboard",
@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
     {
         id: 4,
         name: "Power Apps & Automate Integration",
-        image: "https://picsum.photos/seed/db-migration/800/600",
+        image: "https://smartwavetechnology.com.my/wp-content/uploads/2024/03/main-tools.png",
         description: "Developed a leave request system using Power Apps, allowing employees to submit and track their leave. The app stores data in SharePoint and uses Power Automate to send approval emails to managers, with an easy-to-use interface for both users and approvers.",
         technologies: ["Power App", "SharePoint List", "Power Automate"],
         githubUrl: "https://github.com/n8sa/db-migration-tool",
