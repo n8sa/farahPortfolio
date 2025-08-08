@@ -96,7 +96,7 @@ export const EXPERIENCES: Experience[] = [
         role: "Design & Marketing Officer",
         company: "Lesong Mart Sdn Bhd",
         period: "Aug 2020 – Nov 2020",
-        location: "Jasin",
+        location: "Jasin, Melaka",
         description: [
             "Designed the official company portfolio, showcasing products, services, and branding direction.",
             "Created visual assets including event posters, marketing materials, and promotional designs for digital and print distribution.",
